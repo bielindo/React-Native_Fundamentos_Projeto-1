@@ -6,10 +6,10 @@ import { FontAwesome } from '@expo/vector-icons';
 
 
 type Props = {
-    name: string;  // Corrigido para string
+    name: string;  
     onRemove: () => void;
-    onSelect: () => void; // Altere para void se não houver retorno
-    selected: boolean; // Adicionando uma prop para indicar se a tarefa está selecionada
+    onSelect: () => void; 
+    selected: boolean; 
 }
 
 export function Task({ name, onRemove, onSelect, selected }: Props) {
